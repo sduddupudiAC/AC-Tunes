@@ -141,7 +141,9 @@
 			</div>
 		</div>
 		<div class="col-3" style="background-color: #E41320; text-align: left; position:relative">
-			<a href="#" id="" data-id="6867254e3f84" data-gname="Pool Table 1" onclick="playClicked(event,'c04e304018f6','Jurassic Park')" style="text-decoration: none; color: inherit;">
+			<a href="#" data-id="c04e304018f6" data-gname="Pool Table 1"
+			   onclick="playClickedgm(event,'c04e304018f6','Jurassic Park')" style="text-decoration: none; color:
+			   inherit;">
 				<div style="position:absolute; bottom:2%; left:2%" class="divCredits">
 					<p style="color:white; font-weight:bold; font-size: 1.5rem;margin:0px;">Play</p><i
 						class="fa fa-music"
@@ -167,7 +169,9 @@
 			</div>
 		</div>
 		<div class="col-3" style="background-color: #E41320; text-align: left; position:relative">
-			<a href="#" id="" data-id="6867254e3f84" data-gname="Pool Table 1" onclick="playClicked(event,'d4f98d631dde','Lord of the Rings')" style="text-decoration: none; color: inherit;">
+			<a href="#" id="" data-id="6867254e3f84" data-gname="Pool Table 1"
+			   onclick="playClickedgm(event,'d4f98d631dde','Lord of the Rings')" style="text-decoration: none; color:
+			    inherit;">
 				<div style="position:absolute; bottom:2%; left:2%" class="divCredits">
 					<p style="color:white; font-weight:bold; font-size: 1.5rem;margin:0px;">Play</p><i
 						class="fa fa-music"
@@ -193,7 +197,9 @@
 			</div>
 		</div>
 		<div class="col-3" style="background-color: #E41320; text-align: left; position:relative">
-			<a href="#" id="" data-id="6867254e3f84" data-gname="Pool Table 1" onclick="playClicked(event,'d4f98d631da4','Multicade 19 in 1')" style="text-decoration: none; color: inherit;">
+			<a href="#"  data-id="d4f98d631da4" data-gname="Pool Table 1"
+			   onclick="playClickedgm(event,'d4f98d631da4','Multicade 19 in 1')" style="text-decoration: none; color:
+			    inherit;">
 				<div style="position:absolute; bottom:2%; left:2%" class="divCredits">
 					<p style="color:white; font-weight:bold; font-size: 1.5rem;margin:0px;">Play</p><i
 						class="fa fa-music"
@@ -219,7 +225,9 @@
 			</div>
 		</div>
 		<div class="col-3" style="background-color: #E41320; text-align: left; position:relative">
-			<a href="#" id="enableGm" data-id="6867254e3f84" data-gname="Pool Table 1" onclick="playClicked(event,'d4f98d631dba','Theatre of Magic')" style="text-decoration: none; color: inherit;">
+			<a href="#" data-id="d4f98d631dba" data-gname="Pool Table 1"
+			   onclick="playClickedgm(event,'d4f98d631dba','Theatre of Magic')" style="text-decoration: none; color:
+			   inherit;">
 				<div style="position:absolute; bottom:2%; left:2%" class="divCredits">
 					<p style="color:white; font-weight:bold; font-size: 1.5rem;margin:0px;">Play</p><i
 						class="fa fa-music"
@@ -275,6 +283,15 @@
 		await enablegameMachinebyid(url, gname);
 		
 	}
+
+    async function playClickedgm(event, id, gname) {
+        event.preventDefault();
+        const message = "CoinUp"
+	    const rfid = "";
+        const url = 'https://test.amusementconnect.com/ArcadeStatus/RemoteStartGame?readerId='+id+'&rfid='+rfid;
+        await enablegameMachinebyid(url, gname);
+
+    }
 
 	async function ErrorPopup(message) {
 		const notyf = new Notyf({
