@@ -1,0 +1,46 @@
+html,
+body {
+    background-color: black;
+}
+
+.topnav {
+    background-color: red;
+}
+
+.topsection {
+    border-top: black solid 1px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    border-radius: 0px !important;
+    font-size: 2rem;
+    color: red !important;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    border-radius: 0px;
+    color: #aaa;
+}
+
+.has-search .form-control::placeholder {
+    color: white;
+}
+
+.has-search input.form-control {
+    background-color: #262626;
+    border-color: #262626;
+}

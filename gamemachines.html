@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>Game Machines</title>
+	<!-- Bootstrap core CSS -->
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
+	<link href="bootstrap_theme/bootstrap.css" rel="stylesheet" type="text/css">
+	<!-- Custom styles for this template -->
+	<link href="style.css" rel="stylesheet">
+
+
+	<style>
+		.btnbk{
+			background-color:#E41320;
+			color:white;
+			border-radius:0px;
+            margin-right: 10px;
+		}
+	</style>
+
+</head>
+<body>
+<div class="pos-f-t">
+	<div class="collapse" id="navbarToggleExternalContent">
+		<div class="bg-dark p-4">
+			<h5 class="text-white h4">Collapsed content</h5><span
+				class="text-muted">Toggleable via the navbar brand.</span>
+		</div>
+	</div>
+	<nav class="bg-dark navbar navbar-dark topnav">
+		<div class="row g-0 w-100">
+			<div class="">
+				<a href="https://aconnectunes.azurewebsites.net/index.html" class="btn btn-sm btnbk float-end">Back</a>
+			</div>
+		</div>
+
+	</nav>
+</div>
+<section class="topsection">
+	<h4 class="text-white">Game Machines</h4>
+</section>
+<div class="CustomSearch">
+	<div style="padding:1rem;" class="form-group has-search">
+		<span class="fa fa-search form-control-feedback"></span>
+		<input type="text" class="form-control" placeholder="Search Game Machine">
+	</div>
+</div>
+<div class="container-fluid g-0">
+	<div class="gamediv row g-0 mt-2">
+		<div class="col-2">
+			<img class="img-fluid" alt="Image1" src="assets/img/godZilla.png">
+		</div>
+		<div class="col-7 d-flex justify-content-center align-items-center">
+			<div class ="row">
+				<h3 style="color:white; font-weight:bold"> Godzilla Pinball</h3>
+			</div>
+		</div>
+		<div class="col-3" style="background-color: #E41320; text-align: left; position:relative">
+			<a href="#" id="enableGm" data-id="6867254e27e4" data-gname="Godzilla" style="text-decoration: none; color: inherit;">
+				<div style="position:absolute; bottom:2%; left:2%" class="divCredits">
+					<p style="color:white; font-weight:bold; font-size: 1.5rem; margin:0px ">Play</p><i
+						class="fa fa-music"
+					                                                                        aria-hidden="true"
+					                                                                        style="color: white;"></i>
+					<p style="color:white; display: inline-block; margin-left: 5px;">2 Credits</p>
+				</div>
+				<div style="position:absolute; top:2%; right:5%" class="playicon"><i class="fa fa-play-circle-o fa-1x"
+				                                                                     aria-hidden="true"
+				                                                                     style="color: white;"></i>
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<div style="padding:0.5rem;" class=" row g-0">
+		<div class="col-2">
+			<img class="img-fluid" alt="Image1" src="assets/img/venom.png">
+		</div>
+		<div class="col-7 d-flex justify-content-center align-items-center">
+			<div class ="row">
+				<h3 style="color:white; font-weight:bold"> Venom Pinball</h3>
+			</div>
+		</div>
+		<div class="col-3" style="background-color: #E41320; text-align: left; position:relative">
+			<a href="#" id="enableGm" data-id="6867254e11a4" onclick="playClicked(event,'6867254e11a4','Venom')" style="text-decoration: none;
+			color: inherit;">
+				<div style="position:absolute; bottom:2%; left:2%" class="divCredits">
+					<p style="color:white; font-weight:bold; font-size: 1.5rem; margin:0px;">Play</p><i
+						class="fa fa-music"
+					                                                                        aria-hidden="true"
+					                                                                        style="color: white;"></i>
+					<p style="color:white; display: inline-block; margin-left: 5px;">4 Credits</p>
+				</div>
+				<div style="position:absolute; top:2%; right:5%" class="playicon"><i class="fa fa-play-circle-o fa-1x"
+				                                                                     aria-hidden="true"
+				                                                                     style="color: white;"></i>
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<div class="gamedivs row g-0">
+		<div class="col-2">
+			<img class="img-fluid" alt="Image1" src="assets/img/pool.png">
+		</div>
+		<div class="col-7 d-flex justify-content-center align-items-center">
+			<div class ="row">
+				<h3 style="color:white; font-weight:bold"> Pool Table 1 </h3>
+			</div>
+		</div>
+		<div class="col-3" style="background-color: #E41320; text-align: left; position:relative">
+			<a href="#" id="enableGm" data-id="6867254e3f84" data-gname="Pool Table 1" onclick="playClicked(event,'6867254e3f84','Pool Table 1')" style="text-decoration: none; color: inherit;">
+				<div style="position:absolute; bottom:2%; left:2%" class="divCredits">
+					<p style="color:white; font-weight:bold; font-size: 1.5rem;margin:0px;">Play</p><i
+						class="fa fa-music"
+					                                                                        aria-hidden="true"
+					                                                                        style="color: white;"></i>
+					<p style="color:white; display: inline-block; margin-left: 5px;">8 Credits</p>
+				</div>
+				<div style="position:absolute; top:2%; right:5%" class="playicon"><i class="fa fa-play-circle-o fa-1x"
+				                                                                     aria-hidden="true"
+				                                                                     style="color: white;"></i>
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<div class="gamedivs row g-0">
+		<div class="col-2">
+			<img class="img-fluid" alt="Image1" src="assets/img/unnamed10.png">
+		</div>
+		<div class="col-7 d-flex justify-content-center align-items-center">
+			<div class ="row">
+				<h3 style="color:white; font-weight:bold"> Jurassic Park Pinball </h3>
+			</div>
+		</div>
+		<div class="col-3" style="background-color: #E41320; text-align: left; position:relative">
+			<a href="#" id="" data-id="6867254e3f84" data-gname="Pool Table 1" onclick="playClicked(event,'c04e304018f6','Jurassic Park')" style="text-decoration: none; color: inherit;">
+				<div style="position:absolute; bottom:2%; left:2%" class="divCredits">
+					<p style="color:white; font-weight:bold; font-size: 1.5rem;margin:0px;">Play</p><i
+						class="fa fa-music"
+						aria-hidden="true"
+						style="color: white;"></i>
+					<p style="color:white; display: inline-block; margin-left: 5px;">8 Credits</p>
+				</div>
+				<div style="position:absolute; top:2%; right:5%" class="playicon"><i class="fa fa-play-circle-o fa-1x"
+				                                                                     aria-hidden="true"
+				                                                                     style="color: white;"></i>
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<div class="gamedivs row g-0">
+		<div class="col-2">
+			<img class="img-fluid" alt="Image1" src="assets/img/lor.jpg">
+		</div>
+		<div class="col-7 d-flex justify-content-center align-items-center">
+			<div class ="row">
+				<h3 style="color:white; font-weight:bold"> Lord of the Rings Pinball </h3>
+			</div>
+		</div>
+		<div class="col-3" style="background-color: #E41320; text-align: left; position:relative">
+			<a href="#" id="" data-id="6867254e3f84" data-gname="Pool Table 1" onclick="playClicked(event,'d4f98d631dde','Lord of the Rings')" style="text-decoration: none; color: inherit;">
+				<div style="position:absolute; bottom:2%; left:2%" class="divCredits">
+					<p style="color:white; font-weight:bold; font-size: 1.5rem;margin:0px;">Play</p><i
+						class="fa fa-music"
+						aria-hidden="true"
+						style="color: white;"></i>
+					<p style="color:white; display: inline-block; margin-left: 5px;">8 Credits</p>
+				</div>
+				<div style="position:absolute; top:2%; right:5%" class="playicon"><i class="fa fa-play-circle-o fa-1x"
+				                                                                     aria-hidden="true"
+				                                                                     style="color: white;"></i>
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<div class="gamedivs row g-0">
+		<div class="col-2">
+			<img class="img-fluid" alt="Image1" src="assets/img/unnamed10.png">
+		</div>
+		<div class="col-7 d-flex justify-content-center align-items-center">
+			<div class ="row">
+				<h3 style="color:white; font-weight:bold"> Multicade 19 in 1 </h3>
+			</div>
+		</div>
+		<div class="col-3" style="background-color: #E41320; text-align: left; position:relative">
+			<a href="#" id="" data-id="6867254e3f84" data-gname="Pool Table 1" onclick="playClicked(event,'d4f98d631da4','Multicade 19 in 1')" style="text-decoration: none; color: inherit;">
+				<div style="position:absolute; bottom:2%; left:2%" class="divCredits">
+					<p style="color:white; font-weight:bold; font-size: 1.5rem;margin:0px;">Play</p><i
+						class="fa fa-music"
+						aria-hidden="true"
+						style="color: white;"></i>
+					<p style="color:white; display: inline-block; margin-left: 5px;">8 Credits</p>
+				</div>
+				<div style="position:absolute; top:2%; right:5%" class="playicon"><i class="fa fa-play-circle-o fa-1x"
+				                                                                     aria-hidden="true"
+				                                                                     style="color: white;"></i>
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<div class="gamedivs row g-0">
+		<div class="col-2">
+			<img class="img-fluid" alt="Image1" src="assets/img/tof.jpg">
+		</div>
+		<div class="col-7 d-flex justify-content-center align-items-center">
+			<div class ="row">
+				<h3 style="color:white; font-weight:bold"> Theatre of Magic </h3>
+			</div>
+		</div>
+		<div class="col-3" style="background-color: #E41320; text-align: left; position:relative">
+			<a href="#" id="enableGm" data-id="6867254e3f84" data-gname="Pool Table 1" onclick="playClicked(event,'d4f98d631dba','Theatre of Magic')" style="text-decoration: none; color: inherit;">
+				<div style="position:absolute; bottom:2%; left:2%" class="divCredits">
+					<p style="color:white; font-weight:bold; font-size: 1.5rem;margin:0px;">Play</p><i
+						class="fa fa-music"
+						aria-hidden="true"
+						style="color: white;"></i>
+					<p style="color:white; display: inline-block; margin-left: 5px;">8 Credits</p>
+				</div>
+				<div style="position:absolute; top:2%; right:5%" class="playicon"><i class="fa fa-play-circle-o fa-1x"
+				                                                                     aria-hidden="true"
+				                                                                     style="color: white;"></i>
+				</div>
+			</a>
+		</div>
+	</div>
+
+
+
+
+</div>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", async function () {
+        const enableGm = document.getElementById("enableGm");
+        enableGm.addEventListener("click", async function () {
+            event.preventDefault();
+            const id = this.getAttribute("data-id");
+            const gname = this.getAttribute("data-gname");
+            const message = "CoinUp"
+            const url = 'https://test.amusementconnect.com/ioTest/IotHub?deviceid=' + id + '&message=' + message;
+            console.log(url);
+            await enablegameMachinebyid(url,gname);
+        });
+
+    })
+
+    async function enablegameMachinebyid(url,gname) {
+
+        const response = await fetchData(url, 'POST');
+        console.log(response);
+        await SucessPopup("Success! Enjoy! " + gname);
+    }
+
+	async function playClicked(event, id, gname) {
+		event.preventDefault();
+		const message = "CoinUp"
+		const url = 'https://test.amusementconnect.com/ioTest/IotHub?deviceid='+id+'&message='+message;
+		console.log(url);
+		await enablegameMachinebyid(url, gname);
+		
+	}
+
+	async function ErrorPopup(message) {
+		const notyf = new Notyf({
+			duration: 5000,
+			position: {
+			x: "center",
+			y: "top",
+			},
+			types: [
+			{
+				type: "warning",
+				background: "orange",
+				icon: {
+				className: "material-icons",
+				tagName: "i",
+				text: "warning",
+				},
+			},
+			{
+				type: "error",
+				background: "indianred",
+				duration: 10000,
+				dismissible: true,
+			},
+			{
+				type: "success",
+				background: "green",
+				duration: 5000,
+				dismissible: true,
+			},
+			],
+		});
+		notyf.error(message);
+		}
+	
+
+
+
+    async function fetchData(url, method) {
+        let retries = 1; // Number of retries allowed
+        while (retries > 0) {
+            try {
+                const response = await fetch(url, {method});
+                return await response.json();
+            } catch (error) {
+                retries--;
+                if (retries === 0) {
+                    // No more retries left, show error message and throw the error
+                    await ErrorPopup("Error, Please try again later.");
+                    throw error;
+                } else {
+                    // Retry the request
+                    console.log(`Retrying... ${retries} retries left.`);
+                }
+            }
+        }
+    }
+
+
+    async function SucessPopup(message) {
+        const notyf = new Notyf({
+            duration: 5000,
+            position: {
+                x: "center",
+                y: "top",
+            },
+            types: [
+                {
+                    type: "warning",
+                    background: "orange",
+                    icon: {
+                        className: "material-icons",
+                        tagName: "i",
+                        text: "warning",
+                    },
+                },
+                {
+                    type: "error",
+                    background: "indianred",
+                    duration: 2000,
+                    dismissible: true,
+                },
+                {
+                    type: "success",
+                    background: "rgb(75, 191, 115)",
+                    duration: 3500,
+                    dismissible: false,
+                },
+            ],
+        });
+        notyf.success(message);
+    }
+
+
+</script>
+
+</body>
+</html>

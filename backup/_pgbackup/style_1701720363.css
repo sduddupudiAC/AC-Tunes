@@ -1,0 +1,61 @@
+html,
+body {
+    background-color: black;
+}
+
+.topnav {
+    background-color: #E41320;
+}
+
+.topsection {
+    border-top: black solid 1px;
+    height: 100px;
+    background-color: #E41320;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    border-radius: 0px !important;
+    font-size: 2rem;
+    color: #E41320 !important;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    border-radius: 0px;
+    color: #aaa;
+}
+
+.has-search .form-control::placeholder {
+    color: white;
+}
+
+.has-search input.form-control {
+    background-color: #262626;
+    border-color: #262626;
+}
+
+section.playsection {
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E41320;
+}
+
+.gamediv {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    position: absolute;
+}
